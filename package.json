@@ -1,0 +1,38 @@
+{
+  "name": "discord.js-tests",
+  "description": "A set of testing utilities for projects that use discord.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/arandomoracle/discord.js-tests",
+  "author": {
+    "name": "arandomoracle",
+    "email": "5637338+arandomoracle@users.noreply.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arandomoracle/discord.js-tests"
+  },
+  "bugs": {
+    "url": "https://github.com/arandomoracle/discord.js-tests/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "lint": "grunt lint",
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "discord.js": "git+https://github.com/discordjs/discord.js.git"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-contrib-nodeunit": "^2.0.0",
+    "gruntify-eslint": "^4.0.0"
+  },
+  "keywords": [
+    "discord",
+    "discord.js"
+  ]
+}
